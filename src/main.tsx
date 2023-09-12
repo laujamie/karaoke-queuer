@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { FirebaseAppProvider } from "reactfire";
 import type { FirebaseOptions } from "firebase/app";
 import App from "./App.tsx";
+import "./index.css";
 
 const firebaseConfig: FirebaseOptions = {
   apiKey: "AIzaSyA9xw37UVwsRneVNZSk5X1NHjOkxyHmhSU",
